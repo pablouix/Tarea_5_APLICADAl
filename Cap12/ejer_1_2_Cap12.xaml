@@ -1,0 +1,22 @@
+<Window x:Class="todosEjercicios.Cap12.ejer_1_2_Cap12"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:todosEjercicios.Cap12"
+        mc:Ignorable="d"
+        Title="el factorial de un numero" Height="230" Width="350">
+    <Grid>
+        <StackPanel Margin="16">
+            <TextBlock Text="Factorial" FontSize="18" />
+            <TextBlock Text="Numero" />
+            <TextBox x:Name="TextBoxNumero"/>
+
+            <TextBlock Text="Factorial"  />
+            <TextBox x:Name="TextBoxFactorial" IsEnabled="false"/>
+
+            <Button Content="Agregar" Click="Click_btnAgregar"/>
+            <Button Content="Limpiar" Click="Click_btnLimpiar"/> 
+        </StackPanel>
+    </Grid>
+</Window>

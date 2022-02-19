@@ -1,0 +1,29 @@
+
+
+3 Buscar en MSDN cuáles son las
+excepciones que pueden ocurrir con los
+arreglos.
+
+- > IndexOutOfRangeException 
+Se produce una excepción cuando se utiliza un índice no válido 
+para tener acceso a un miembro de una matriz o una colección, 
+o para leer o escribir en una ubicación determinada de un búfer.
+
+
+4 Buscar en MSDN cuáles son las
+excepciones que pueden ocurrir con los
+streams.
+
+- > InvalidOperationException
+Se genera cuando una llamada de método no es válida para el 
+estado actual del objeto. 
+
+
+5 Buscar en MSDN cuáles son las
+excepciones que pueden ocurrir con el
+método WriteLine()
+
+- > IOException
+Se produce cuando hay un error de E/S.
+
+
